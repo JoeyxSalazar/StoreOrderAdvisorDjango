@@ -1,0 +1,83 @@
+/* UploadSalesReport.css */
+
+.upload-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    font-family: Arial, sans-serif;
+  }
+  
+  .upload-container h2 {
+    color: green;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .upload-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .upload-container input[type="file"] {
+    margin-bottom: 15px;
+  }
+  
+  .upload-container button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .upload-container button:hover {
+    background-color: darkgreen;
+  }
+  
+  /* Style for error messages */
+  .upload-container .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  /* Style for the report */
+  .report-container {
+    margin-top: 30px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 4px;
+  }
+  
+  .report-container h3 {
+    color: green;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  /* Table styling for the report */
+  .report-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .report-container th,
+  .report-container td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .report-container th {
+    background-color: green;
+    color: white;
+  }
+  
