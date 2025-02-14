@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+OrderPredictor/frontend/node_modules
+OrderPredictor/frontend/.pnp
+OrderPredictor/frontend/.pnp.js
+
+# testing
+OrderPredictor/frontend/coverage
+
+# production
+OrderPredictor/frontend/build
+
+# misc
+OrderPredictor/frontend/.DS_Store
+OrderPredictor/frontend/.env.local
+OrderPredictor/frontend/.env.development.local
+OrderPredictor/frontend/.env.test.local
+OrderPredictor/frontend/.env.production.local
+
+OrderPredictor/frontend/npm-debug.log*
+OrderPredictor/frontend/yarn-debug.log*
+OrderPredictor/frontend/yarn-error.log*
