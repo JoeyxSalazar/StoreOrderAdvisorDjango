@@ -9,6 +9,10 @@ import pandas as pd
 
 #Post request responsible for generating suggestions
 class ProcessSalesReport(APIView):
+    def get(self, request, *args, **kwargs):
+        return Response("API Base URL", status=status.HTTP_200_OK)
+    
+
     def post(self, request, format=None):
         sales_file = request.FILES.get('sales_report')
         if not sales_file:
@@ -56,9 +60,5 @@ class ProcessSalesReport(APIView):
 class FrontendAppView(TemplateView):
     template_name = 'index.html'
 
-# Create your views here.
-def home(request):
-    return HttpResponse("Home Screen")
 
-def api_base(request):
-    return HttpResponse("You've located the API")
+
